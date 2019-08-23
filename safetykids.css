@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+header{
+  background-image:url("http://getwallpapers.com/wallpaper/full/6/1/c/842974-nice-colorful-backgrounds-2560x1600-for-samsung.jpg");
+  height: 170vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: #FFF;
+  padding: 5px 20px;
+  border: 3px solid #000;
+  transition: 0.9s ease;
+}
+
+ul li a:hover{
+  background color: #FFF;
+  color:#000;
+}
+
+ul li.active a{
+  background-color: #FFF;
+  color: #000;
+}
+ul li.active a{
+  background-color: #FFF;
+  color: #000;
+}
+.logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+.monkeysize img{
+  width: 300px;
+  height: 300px;
+  margin-top: 0px;
+  margin-left:470px;
+
+}
+h3{
+  color: black;
+  text-align: center;
+  font-size: 70px;
+}
+
+.title{
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.title h1{
+  color: #FFF;
+  font-size: 70px;
+  text-align: center;
+  margin: 20px;
+  background: black;
+  border: 1px solid white;
+  outline: 1px solid white;
+  outline-offset: 15px;
+  }

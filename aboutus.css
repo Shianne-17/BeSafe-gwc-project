@@ -1,0 +1,87 @@
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  margin: 50px;
+  background: #000;
+  border: 1px solid white;
+  outline: 1px solid white;
+  outline-offset: 15px;
+  font-family: 'Hepta Slab';
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Hepta Slab';
+  font-style: oblique;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 2px;
+  font-family: 'Hepta Slab';
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Hepta Slab';
+}
+
+h5 {
+  float: center;
+  position: relative;
+  margin-top: 0px;
+  margin-right:700px;
+}
+
+body{
+    background-image:url("http://getwallpapers.com/wallpaper/full/6/1/c/842974-nice-colorful-backgrounds-2560x1600-for-samsung.jpg");
+    height: 340vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+  }
+  ul li{
+    display: inline-block;
+  }
+  ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 3px solid #000;
+    transition: 0.9s ease;
+  }
+
+  ul li a:hover{
+    background color: #FFF;
+    color:#000;
+  }
+
+  ul li.active a{
+    background-color: #FFF;
+    color: #000;
+  }
+  ul li.active a{
+    background-color: #FFF;
+    color: #000;
+  }
+  .logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+  }
+  .main{
+    max-width: 1200px;
+    margin: auto;
+  }
